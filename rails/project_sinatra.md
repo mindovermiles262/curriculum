@@ -1,138 +1,161 @@
-*Don't forget to use Git to save your projects!*
+The very first steps of learning any programming language are destined to be a little frustrating.  It's normal to feel lost and confused as you progress here, because no matter where you start in the material, there are definitely crucial elements of the language that you just have not been exposed to yet.  Having said that, we've _really_ tried to find the best materials to get you going as quickly and smoothly as possible. So embrace the cognitive dissonance, and let's go.
 
-You've seen how simple it can be to get something up and running using Sinatra, in these projects you will use the Caesar Cipher and either the Hangman or Mastermind games you built in the Ruby course to make a couple of web apps.
+### Points to Ponder
 
-### A note on deploying your apps
-Deploying a Sinatra app to Heroku takes a little bit of work but the process is fairly straightforward. Instructions can be found [here](https://devcenter.heroku.com/articles/rack#sinatra)
+> Use this section to quiz yourself.  If you know all these answers then you can comfortably skip, or at least skim through this lesson.  After the lesson, come on back here and read these again to make sure you haven't missed anything crucial.
 
-1. your `config.ru` file should require your main application file (This will be something like `web_guesser.rb` in the jumpstart tutorial)
-2. if you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
-3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku.
+<details>
+  <summary>What are the 7 basic types in Javascript?</summary>
 
-### Project 1: Caesar Cipher _reloaded_
+  * Boolean
+  * Null
+  * Undefined
+  * Number
+  * String
+  * Symbol
+  * Object
+</details>
 
-Revisit the caesar cipher ruby script that you created during [Ruby Building Blocks](http://www.theodinproject.com/ruby-programming/building-blocks) and use Sinatra to create a simple front-end for it.
+<details>
+  <summary>What is a variable, and how do you declare one in Javascript?</summary>
 
-### Your Task
+  * A variable is a "storage container" for data.  
+  * You can declare a variable in Javascript by using the `=` (single equals) sign:
+    * `let message = "Hello"`
+</details>
 
-1. Start a new Sinatra project (you can begin by doing a simple hello world as in the Jumpstart tutorial, just to make sure everything is set up correctly)
-2. You should be able to do this with only one view, and a couple of routes, but feel free to be as fancy as you like.
-3. [Deploy to Heroku!](https://devcenter.heroku.com/articles/rack#sinatra)
+<details>
+  <summary>
+    Name all 3 ways to declare a variable in Javascript and when would you want to use each one?
+  </summary>
 
-### Student Solutions
+  * `let` - Used to declare most variables.
+  * `const` - Used to declare an unchaning (constant) variable.
+  * `var` - Has genereally been replaced by the other two.  Common to see in older code.
+</details>
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+<details>
+  <summary>What types of things can you store in a variable?</summary>
 
-* Add your solution below this line!
-* Raiko's solution [Github](https://github.com/Cypher0/caesar) | [Live](https://rocky-waters-74257.herokuapp.com/)
-* theghall's solution [Github](https://github.com/theghall/sinatra-caesar) | [Live](https://arcane-temple-35414.herokuapp.com/)
-* Kasey Z's solution [GitHub](https://github.com/kasey-z/caesar_cipher_reloaded) | [Live](https://hidden-wildwood-20236.herokuapp.com/)
-* Jonathan Yiv's solution [GitHub](https://github.com/JonathanYiv/caesar_cipher) | [Live](https://lit-woodland-76112.herokuapp.com/)
-* jdrobertso's solution [source code](https://github.com/jdrobertso/cipher_site) | [Live](https://hidden-meadow-77860.herokuapp.com/)
-* Clayton Sweeten's solution [source code](https://github.com/cjsweeten101/OdinProjects/tree/master/sinatra/caesar_reloaded) | [Live](https://boiling-crag-42204.herokuapp.com/)
-* MGiagante's solution [source code](https://github.com/mgiagante/caesar_cipher_sinatra) | [Live](https://arcane-chamber-58799.herokuapp.com)
-* justinckim3's solution [source code](https://github.com/justinckim3/sinatra-project) | [Live](https://sinatra-projects.herokuapp.com/caesar-cipher)
-* Adsy430's solution [source code](https://github.com/adampal/caesar_reloaded) | [Live](https://mighty-river-58119.herokuapp.com)
-* holdercp's solution [Source code](https://github.com/holdercp/caesar_cipher_sinatra) | [Live](https://glacial-falls-15610.herokuapp.com/)
-* Nikolay Dyulgerov's solution [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://sinatra-odin.herokuapp.com/)
-* jfonz412's solution [github](https://github.com/jfonz412/caesar_online)
-* OlehSliusar's solution: [Live](https://caesar-cipher-reloaded-0.herokuapp.com/) | [Source code](https://github.com/OlehSliusar/caesar_cipher_reloaded)
-* mindovermiles262's [caesar cipher](https://fast-citadel-19591.herokuapp.com/) | [github](https://github.com/mindovermiles262/caesar-cipher)
-* Jordan Ellis-Lynch's [solution](https://blooming-ravine-82875.herokuapp.com/).
-* ToTenMilan's solution [github](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/sinatra/caesar_cipher)
-* nmac's solution [github](https://github.com/nmacawile/sinatra_converted_projects) / [heroku](https://infinite-scrubland-80707.herokuapp.com/caesarcipher)
-* Ayushka's solution [github](https://github.com/ayushkamadji/caesar_cipher)
-* Orlando's solution [github](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Sinatra/caesar_cipher) / [see it on the web](https://sheltered-mountain-39747.herokuapp.com/caesar_cipher.erb)
-* Chad Kreutzer's solution [github](https://github.com/ChadKreutzer/sinatra_cipher) / [see it on the web](https://salty-hamlet-78507.herokuapp.com/)
-* yilmazgunalp's solution [github](https://github.com/yilmazgunalp/RoR/tree/master/Sinatra/caesar_chiper) / [see it on the web](https://gentle-everglades-11877.herokuapp.com/)
-* RichJDSmith's solution [github](https://github.com/richjdsmith/sinatra_caeser) / [see it on the web](https://secret-shelf-31692.herokuapp.com)
-* John Phelps's solution [github](https://github.com/jphelps413/odin-sinatra-caesar) / [see it on the web](https://jphelps413-sinatra-caesar.herokuapp.com/)
-* Yash Anand's solution [github](https://github.com/yashanand1910/sinatra-project) / [see it on web](http://caesar-cipher2.herokuapp.com)
-* Jib's solution [github](https://github.com/NuclearMachine/odin_rails/tree/master/sinatra_proj) / [see it on web](https://damp-plateau-50624.herokuapp.com/)
-* leosoaivan's solution [github](https://github.com/leosoaivan/sinatra_cipher) / [see it on the web](https://morning-mesa-70245.herokuapp.com/)
-* bcasadei's solution [github](https://github.com/bcasadei/caesar_cipher_reloaded) / [see it on the web](https://caesar-cipher-reloaded.herokuapp.com/)
-* codyloyd's solution [github](https://github.com/codyloyd/sinatra-translator) / [see it on the web](https://cryptic-reaches-55962.herokuapp.com/)
-* Oscar Y.'s solution [github](https://github.com/mysteryihs/caesar_cipher) / [see it on the web](https://dry-retreat-16146.herokuapp.com/)
-* J-kaizen's solution [github](https://github.com/J-kaizen/TheOdinProject/tree/master/Rails/sinatra)
-* chrisnorwood's solution [github](https://github.com/chrisnorwood/caesar-web) / [see it on the web](https://sinatra-caesar-cipher.herokuapp.com/)
-* Jiazhi Guo's solution [github](https://github.com/jerrykuo7727/caesar_cipher) / [see it on the web](https://caesar-cipher-by-jiazhi.herokuapp.com/)
-* AaronGerry's solution [github](https://github.com/AaronGerry/web_guesser) / [see it on the web](https://hidden-taiga-21991.herokuapp.com/)
-* Shala Qweghen's solution [github](https://github.com/ShalaQweghen/ceasar_cipher) / [see it on the web](https://dry-refuge-52478.herokuapp.com/)
-* Derek Kwong's solution [github](https://github.com/dckwong/CaesarCipher) / [see it on the web](https://caesarcipherapp.herokuapp.com/)
-* Chris Chambers' solution [github](https://github.com/chrisgchambers/caesar_cipher) / [see it on the web](https://salty-beach-27561.herokuapp.com/)
-* Amrr Bakry's solution [github](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/ceasar_cipher) / [see it on the web](https://calm-wave-18087.herokuapp.com/)
-* csrail's solution [github](https://github.com/csrail/caesar-cipher-sinatra) / [see it on the web](https://csrail-caesar-cipher.herokuapp.com/)
-* DV's solution [github](https://github.com/dvislearning/caesar_cipher/tree/master/lib) / [see it on the web](https://quiet-cove-96544.herokuapp.com/)
-* Austin's solution [github](https://github.com/CouchofTomato/ceasar_cipher_sinatra) / [see it on the web](https://couch-cipher.herokuapp.com/)
-* Miguel Herrera's solution [github](https://github.com/migueloherrera/sinatra-projects) / [see it on the web](https://floating-meadow-84284.herokuapp.com/caesar_cipher)
-* at0micr3d's solution - [github](https://github.com/at0micr3d/sinatra-caesar-cipher) / [see it on the web](https://pure-tundra-73618.herokuapp.com/)
-* Tom Westerhout's solution [Github](https://github.com/Westw00d/Caesar-Cipher) / [see it on the web](http://thawing-headland-68994.herokuapp.com/)
-* Jerry Gao's solution [github](https://github.com/blackwright/odin/tree/master/sinatra_caesar_cipher) / [see it on the web](https://caesar-cipher-sinatra.herokuapp.com/)
-* Sophia Wu's solution [github](https://github.com/SophiaLWu/sinatra-caesar-cipher) / [see it on the web](https://shielded-temple-74302.herokuapp.com/)
-* Samuel Langenfeld's solution [github](https://github.com/SamuelLangenfeld/sinatra_caesar_cipher) / [see it on the web](http://langenfeld-caesar-cipher.herokuapp.com/)
-* Kyle Thomson's solution [github](https://github.com/idynkydnk/portfolio_heroku) / [see it on the web](https://portfolio-heroku-kyle.herokuapp.com/caesar_cipher)
-* Jonathan Marks's solution [github](https://github.com/johnjmarks4/sinatra) / [see it on the web](https://warm-springs-12433.herokuapp.com/)
-* Luján Fernaud's solution [github](https://github.com/lujanfernaud/sinatra-caesar-cipher) / [see it on the web](https://sinatra-caesar.herokuapp.com/)
-* Austin Norman's solution [github](https://github.com/austinnormancore/sinatra_caesar_cipher/blob/master/caesar_cipher.rb) / [see it on the web](https://obscure-ocean-55550.herokuapp.com/)
-* Anistor86's solution [github](https://github.com/anistor86/sinatra_caesar_cipher) / [see it on the web](https://pure-retreat-21723.herokuapp.com/)
+  * You can store any of the 7 basic types in a variable
+</details>
 
-### Project 2: Another Web-Game
+<details>
+  <summary>What are the rules and guidelines for naming variables?</summary>
 
-Pick either Mastermind or Hangman and build a front end for it.  This one might take a little more work, but it should be well within your grasp at this point.  Have fun!
+  * Variable names must contain only letters, digits, `$` and `_`
+  * Stay away from generic variable names like `a`, `b`, or `x`
+  * Use `camelCase` to name variables with multiple words
+    * `let myVeryLongVariableName = 2`
+  * Use `ALL_CAPS` and underscores to name constants
+    * `const MY_BIRTH_YEAR = 1994`
+</details>
 
-### Your Task
+<details>
+  <summary>What is 'Loose typing' and what does it mean for your code?</summary>
 
-1. The UI-implementation is up to you this time.  Keeping them text-based is acceptable, but now that we're on the web you can branch out with images to make something a little nicer.
-2. You'll probably want to go over the use of "sessions" within Sinatra again.  Check the [README](http://www.sinatrarb.com/intro.html#Using%20Sessions) and [here](https://learn.co/lessons/sinatra-mechanics-of-sessions-readme).
-3. Have fun!  Don't forget to make all of your friends play your game!
-4. _Extra Credit_ The free Heroku account only allows a limited number of projects, unless you add a credit card to your account (they won't charge you, it's just for identity confirmation). If you _do_ add your information, you can have unlimited projects, but they still limit how many of them can be "awake" at one time. You might consider using Sinatra to make yourself a simple web-portfolio so that you can store all of these apps in one project.
+  * Loose typing allows you to declare variables as you need them.
+  * You may assign multiple types to the same variable
+    * `let foo = 13;  // foo is a Number`
+    * `foo = 'bar';   // foo is now a String`
+    * `foo = true;    // foo is now a Boolean`
+</details>
 
-### Student Solutions
+<details>
+  <summary>How can you do math in Javascript?</summary>
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+  * Math can be done in Javascript by using operators, the basics being:
+    * Addition: `6 + 9` equals `15`
+    * Subtraction: `20 - 5` equals `15`
+    * Multiplication: `3 * 4` equals `12`
+    * Division: `24 / 5` equals `4.8`
+    * Modulo: `24 % 5` equals `4`
+</details>
 
-* Add your solution below this line!
-* Raiko's solution (Mastermind) [Github](https://github.com/Cypher0/mastermind) | [Live](https://damp-brook-36728.herokuapp.com/)
-* theghall's solution (Mastermind) [Github](https://github.com/theghall/sinatra-mastermind) | [Live](https://safe-eyrie-38662.herokuapp.com/)
-* Kasey Z's solution (Mastermind) [Source Code](https://github.com/kasey-z/mastermind_reloaded) | [Live](https://frozen-falls-49194.herokuapp.com//)
-* Jonathan Yiv's solution (Hangman) [Source Code](https://github.com/JonathanYiv/hangman) | [Live](https://infinite-river-55923.herokuapp.com/)
-* Clayton Sweeten's solution (Hangman)[source code](https://github.com/cjsweeten101/OdinProjects/tree/master/sinatra/hangman_reloaded) | [Live](https://serene-dusk-67079.herokuapp.com/)
-* justinckim3's solution [source code](https://github.com/justinckim3/sinatra-project) | [Live](https://sinatra-projects.herokuapp.com/hangman)
-* Adsy430's solution [Source code](https://github.com/adampal/hangman) | [Live](https://fierce-gorge-46516.herokuapp.com/?restart=true)
-* holdercp's solution [Source code](https://github.com/holdercp/hangman-sinatra) | [Live](https://thawing-cliffs-47023.herokuapp.com/)
-* Nikolay Dyulgerov's solution (Hangman) [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://sinatra-odin.herokuapp.com/)
-* jfonz412's solution (hangman)[github](https://github.com/jfonz412/hangman_online)
-* mindovermiles262's (Mastermind) [github](https://rocky-tor-31467.herokuapp.com/) | [github](https://github.com/mindovermiles262/mastermind)
-* Jordan Ellis-Lynch's [github](https://github.com/jordy-el/sinatra_hangman) | ([heroku](https://floating-mountain-38019.herokuapp.com/))
-* ToTenMilan's solution (Mastermind) [github](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/sinatra/mastermind) / [see it on the web](http://mastermindbymilan.herokuapp.com)
-* nmac's solution (Mastermind) [github](https://github.com/nmacawile/sinatra_converted_projects) / [heroku](https://infinite-scrubland-80707.herokuapp.com/mastermind)
-* Ayushka's solution: Mastermind [github](https://github.com/ayushkamadji/master_mind_sinatra) / [see it on the web](https://afternoon-escarpment-72597.herokuapp.com/)
-* Orlando's solution: Hangman, Mastermind, others [github](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Sinatra/web_portafolio) / [see it on the web](https://sheltered-mountain-39747.herokuapp.com/)
-* yilmazgunalp's solution - Hangman: [github](https://github.com/yilmazgunalp/RoR/tree/master/hangman) / [see it on the web](https://hidden-hamlet-76819.herokuapp.com/)
-* leosoaivan's solution - Hangman: [github](https://github.com/leosoaivan/sinatra_hangman) / [see it on the web](https://fierce-island-53975.herokuapp.com/)
-* Jib's solution [github](https://github.com/NuclearMachine/odin_rails/tree/master/sinatra_proj) / [see it on web](https://damp-plateau-50624.herokuapp.com/)
-* codyloyd's solution - MasterMind: [github](https://github.com/codyloyd/sinatra-codebreaker) / [see it on the web](https://crafty-breaker-4567.herokuapp.com/) Hangman: [github](https://github.com/codyloyd/hangman) / [see it on the web](https://subtle-wording-4567.herokuapp.com/)
-* Martin's sulution - MasterMind: [github](https://github.com/mtsafer/MasterMind-Online) / [see it on the web](https://cryptic-caverns-91319.herokuapp.com) Hangman: [github](https://github.com/mtsafer/hangman-online) / [see it on the web](https://stormy-shelf-89128.herokuapp.com)]
-* Oscar Y.'s solution - Hangman: [github](https://github.com/mysteryihs/hangman/) / [see it on the web](https://radiant-earth-86956.herokuapp.com/)
-* chrisnorwood's solution - Hangman: [github](https://github.com/chrisnorwood/wordguess-web) / [see it on the web](https://sinatra-guessing-game.herokuapp.com/)
-* Jiazhi Guo's solution - Hangman: [github](https://github.com/jerrykuo7727/hangman) / [see it on the web](https://hangman-by-jiazhi.herokuapp.com/)
-* Diego V.'s solution - MasterMind: [github](https://github.com/Dieblax/mastermind-sinatra) / [see it on the web](https://mastermindforvikings.herokuapp.com/)
-* Shala Qweghen's solution - MasterMind: [github](https://github.com/ShalaQweghen/another_web_game) / [see it on the web](https://warm-hamlet-61859.herokuapp.com/) Hangman: [github](https://github.com/ShalaQweghen/web_game) / [see it on the web](https://evening-fortress-95446.herokuapp.com/)
-* Derek Kwong's solution - Hangman: [github](https://github.com/dckwong/Hangman) / [see it on the web](https://dkhangman.herokuapp.com/)
-* Amrr Bakry's solution - Hangman: [github](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/sinatra_hangman) / [see it on the web](https://polar-brushlands-32644.herokuapp.com/)
-* csrail's solution - Hangman: [github](https://github.com/csrail/hangman-sinatra) / [see it on the web](https://csrail-hangman.herokuapp.com/)
-* DV's solution - Hangman: [github](https://github.com/dvislearning/hangman_sinatra) / [see it on the web](https://secret-escarpment-36246.herokuapp.com/)
-* Austin's solution - Hangman: [github](https://github.com/CouchofTomato/hangman_sinatra) / [see it on the web](https://couch-hangman.herokuapp.com/)
-* Miguel Herrera's solution - Hangman: [github](https://github.com/migueloherrera/sinatra-projects) / [see it on the web](https://floating-meadow-84284.herokuapp.com/hangman)
-* at0micr3d's solution - Hangman: [github](https://github.com/at0micr3d/interrobang-man) / [see it on the web](https://sheltered-scrubland-38921.herokuapp.com/)
-* Tom Westerhout's solution - Webguesser: [Github](https://github.com/Westw00d/Web-Guesser) / [see it on the web](http://shrouded-waters-66767.herokuapp.com/)
-* Jerry Gao's solution - Hangman: [github](https://blackwright-hangman.herokuapp.com/) / [see it on the web](https://github.com/blackwright/odin/tree/master/sinatra_hangman)
-* Sophia Wu's solution - Hangman: [github](https://github.com/SophiaLWu/sinatra-hangman) / [see it on the web](https://shielded-lowlands-85300.herokuapp.com/)
-* Samuel Langenfeld's solution - Hangman: [github](https://github.com/SamuelLangenfeld/sinatra_hangman) / [see it on the web](http://langenfeld-hangman.herokuapp.com/)
-* Kyle Thomson's solution - Hangman: [github](https://github.com/idynkydnk/portfolio_heroku) / [see it on the web](https://portfolio-heroku-kyle.herokuapp.com/hangman)
-* Jonathan Marks's solution - MasterMind: [github](https://github.com/johnjmarks4/mastermind_reloaded) / [see it on the web](https://arcane-shelf-92558.herokuapp.com/)
-* Luján Fernaud's solution [github](https://github.com/lujanfernaud/sinatra-countries-hangman) / [see it on the web](https://sinatra-countries-hangman.herokuapp.com/)
-* Pat's solution - Mastermind: [github](https://github.com/Pat878/Sinatra_Mastermind) / [see it on the web](https://sleepy-island-52915.herokuapp.com/)
-* Austin Norman's solution - Hangman: [github](https://github.com/austinnormancore/hangmansinatra) / [see it on the web](https://secure-ridge-15084.herokuapp.com/)
-* Anistor86's solution - Hangman: [github](https://github.com/anistor86/sinatra_hangman) / [see it on the web](https://safe-escarpment-98953.herokuapp.com/)
-* Francisco's Carlos solution - [github](https://github.com/fcarlosdev/the_odin_project/tree/master/sinatra_project)
+<details>
+  <summary>What's the difference between `=`, `==` and `===`?</summary>
+
+  * Single Equality `=` is an Assignment Operator. It assigns values to variables
+  * Double Equality `==` loosly checks for equality
+    * `3 == '3' // true`
+  * Triple Equality `===` strictly checks for equality
+    * `3 === '3' // false`
+</details>
+
+<details>
+  <summary>What is a string?</summary>
+
+  * A string is a sequence of characters used to represent text
+</details>
+
+<details>
+  <summary>How do you concatenate a string?</summary>
+
+  * To concatenate a string, you "add" the strings together
+    * `"The Od" + "in Project"  // "The Odin Project"`
+</details>
+
+<details>
+  <summary>What is an array?</summary>
+
+  * An array is an indexed collection of objects
+</details>
+
+<details>
+  <summary>What types of things can you put into an array?</summary>
+
+  * Any variable or basic type (Boolean, String, Number, etc.) can be stored in an array 
+</details>
+
+<details>
+  <summary>
+    How do you get items out of an array? (i.e. how do you use the information you've stored)
+  </summary>
+
+  * You may access arrays through their elements:
+    * `let arr = [1, "b", true, null]`
+    * `arr[0]  // 1`
+    * `arr[2]  // true`
+</details>
+
+### Step One
+
+1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash) throws you into the deep end 🔥. The point of it is to give you a good feel for what you're going to be able do to with your Javascript skills, and how to think about breaking down a problem.  You'll also get a good idea for what your code is going to end up looking like. You will not, however really learn a lot here because most of it will be over your head at this point.  Don't sweat it.  It's _just fine_ if you don't really understand what you're doing just yet.  You'll get there.
+
+### Variables
+You can think of variables simply as "storage containers" for data in your code.  Until recently there was only one way to declare and use a variable in Javascript (the `var` keyword) but the latest versions of Javascript include 2 more keywords that can be used depending on the situation. The following resources will tell you what you need to know!
+
+1. Read through [this tutorial on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables). It only covers the first method of declaring a variable, but most of the information is relevant to the other methods as well. (Be sure to code along in your browser's console, or in the provided code boxes!)
+2. Read through [this variable tutorial](http://javascript.info/variables) as well. It covers the other methods of variable creation.  __Be sure to do the Tasks__ at the end of this article!  Information won't stick without practice!
+3. There is one quirk that you should be aware of when it comes to declaring variables.  In many cases you won't have to worry about this too much at all, but when it comes up it can definitely be a frustrating experience to debug if you don't already know about it.  Don't worry too much about it at this point, but read [this short article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting) about variable hoisting, and keep it in the back of your mind for now.
+4. At the risk of giving you too much information [This article](http://wesbos.com/javascript-scoping/) explains the main difference between Javascript's old `var` syntax and the newer `let` and `const`.  You shouldn't be trying to internalize these small details yet, because frankly they're describing rules that you haven't encountered yet.
+
+### Data types
+
+1. There are a few extremely common types of data that you will encounter in Javascript, and the bulk of this lesson will give us a really strong foundation in all of them.  Before we start digging deep however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
+
+### Numbers
+Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
+
+1. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) will get you started neatly. There's much more that you can do with numbers, but this is all you need at the moment.
+
+### Strings
+Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A __string__ is simply a piece of text... and is a fundamental building block of the language.
+
+1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic. 
+2. Go through [this lesson](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods) to learn a little bit more about what you can do with strings.
+
+> ## A little reminder: 
+> By this point, your head might be spinning because of the amount of information you've tried to cram in. That's OK! Don't let it get to you. You are never going to retain all of this info on the first go.  All of these elements are fundamental building blocks of the language, so as you learn you will definitely be encountering them all over and over again, and as you do, it will begin to stick. Our advice for now is to make sure you're actually coding along with the lessons as you read them (which will definitely help with retention) and just press on.  When we've gotten through this stuff we'll give you a chance to slow down and practice what you've learned.
+
+### Arrays
+Strings and numbers may be our building blocks but, as you can probably imagine, as your scripts get larger and more complex you're going to need a way to deal with large numbers of them.  Luckily, Javascript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
+
+1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays) is a great introduction, and includes a couple of coding exercises for you. Be sure to do the exercises!  You'll learn more deeply how arrays work, and you'll also get some more practice working with the other elements we've been discussing.
+
+### Getting Help!
+We've learned a lot!  As we mentioned above, we don't expect that you will have retained all of this information on the first go through.  Your next step then, is to _practice_.  The more you use this stuff, the better you'll retain it.  However, as you begin trying to write some code you'll almost definitely realize that you have forgotten something along the way.  Knowing where to look online is a pretty useful skill.  Take a few minutes to check out the following sites.  Get used to their layout and be ready to come right back to them when you discover you've lost something.
+
+1. [MDN](https://developer.mozilla.org/en-US/): this one should be familiar to you at this point...  it's the same site as most of the tutorials we've directed you to so far.  In addition to having great beginner tutorials, MDN also has very thorough and well organized documentation that even the pros use from time to time.
+2. [http://javascript.info/](http://javascript.info/), the other site we've linked to is another good resource.  Most of the content takes the form of tutorials rather than documentation, but they're more concise, and good for review... and while looking around, you might learn something else along the way which is never a bad thing.
+3. [GOOGLE](http://lmgtfy.com/?q=GOOGLE). Ok, we didn't really need to mention this one, but many times the easiest way to look for something is to simply google it.  At this point in you career you might have a harder time deciphering which information is relevant, or which sites are likely to have the most useful information, but that's OK.  
