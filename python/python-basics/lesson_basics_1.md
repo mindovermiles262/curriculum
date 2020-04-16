@@ -1,9 +1,3 @@
----
-course: python
-title: basics_1
-url: python/python-basics/lesson_basics_1.md
----
-
 In this lesson we're going to assume that you have no prior knowledge of programming. We're going to walk you through the basics of programming and write your first python program. It may not be all that exciting of a program, but we'll build on them in the future. We've got a lot to cover so let's get started.
 
 ### Lesson Topics
