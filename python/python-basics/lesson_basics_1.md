@@ -1,9 +1,12 @@
 In this lesson we're going to assume that you have no prior knowledge of programming. We're going to walk you through the basics of programming and write your first python program. It may not be all that exciting of a program, but we'll build on them in the future. We've got a lot to cover so let's get started.
 
-### Lesson Topics
-* Executing a Python script from the command line
-* Flow Control
-* Boolean Operators
+### Learning Outcomes
+
+By the end of this section, you should be able to do the following:
+
+* Execute a Python script from the command line
+* Know how to use flow control
+* Understand Boolean Operators
 
 ### Writing Your First Program
 Let's not waste any time. Let's write our first python program. The main objective of this is to show you how to run python scripts from your terminal.
