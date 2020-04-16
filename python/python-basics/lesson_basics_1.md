@@ -71,13 +71,13 @@ Congratulations! You've just run your first Python program!
 
 </div>
 
-### Key Takeaways
+### Knowledge Check
 * Programming is a great way to perform repetitive tasks
 * You do not need to be a math genius. Basic algebra is enough.
 * Type `python` into your terminal to launch the interactive shell.
 * There are three types of data: Integers, Floats, and Strings.
 
-### Quiz Yourself
+### Exercises
 * Do the practice questions at the end of [Chapter 1](https://automatetheboringstuff.com/2e/chapter1/) 
 * Complete the exercises at the end of learnpython.org's [Hello World](https://www.learnpython.org/en/Hello%2C_World%21) and [Variable and Types](https://www.learnpython.org/en/Variables_and_Types)
 
