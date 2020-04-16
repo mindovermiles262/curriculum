@@ -11,40 +11,43 @@ In this lesson we're going to assume that you have no prior knowledge of program
 Let's not waste any time. Let's write our first python program. The main objective of this is to show you how to run python scripts from your terminal.
 
 First, we'll make a new directory to save our script file. Open up your terminal and change directories to your home:
-```bash
+
+~~~bash
 cd ~
-```
+~~~
 
 Then, we'll create a new folder named "odin", and another folder named "python" inside of it. Then we'll `cd` into it:
-```bash
+
+~~~bash
 mkdir -p odin/python
 cd odin/python
-```
+~~~
 Next, create a new file and name it `hello_world.py`. Then open the file inside of your code editor (VSCode)
-```bash
+
+~~~bash
 touch hello_world.py
 code hello_world.py
-```
+~~~
 
 If you've followed along correctly you should now see an open Visual Studio Code application. Type the following and save the file:
 
-```
+~~~
 # This program prints 'hello world' to the terminal
 print('Hello World')
-```
+~~~
 
 
 ### Running Your First Program
 Back in your terminal (still inside the python directory), simply type the following to execute your first program:
-```
+~~~
 python3 hello_world.py
-````
+~~~`
 
 You should see the flowing output:
-```bash
+~~~bash
 $ python3 hello_world.py
 Hello World
-```
+~~~
 
 The dollar sign in this example is simply an indicator that you'll enter the command in your terminal as a non-root user. You shouldn't type the `$` character into your terminal.
 
