@@ -60,9 +60,9 @@ The first command, `python3`, tells the OS to run the python 3 program. The seco
 
 Congratulations! You've just run your first Python program!
 
-<div class="lesson-content__panel" markdown="1">
-
 #### Assignment
+
+<div class="lesson-content__panel" markdown="1">
 
 1. Read [Chapter 0](https://automatetheboringstuff.com/2e/chapter0/) of _Automate The Boring Stuff with Python_ up to the "About This Book" section
 1. Read [Chapter 1](https://automatetheboringstuff.com/2e/chapter1/) of _Automate the Boring Stuff with Python_ and learn the basics of using the Python interactive shell. __PRO TIP:__ Launch Python's interactive shell by typing `python` into your terminal. Type `exit()` to exit.
