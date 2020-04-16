@@ -8,6 +8,8 @@ By the end of this section, you should be able to do the following:
 * Know how to use flow control
 * Understand Boolean Operators
 
+### Introduction
+
 ### Writing Your First Program
 Let's not waste any time. Let's write our first python program. The main objective of this is to show you how to run python scripts from your terminal.
 
