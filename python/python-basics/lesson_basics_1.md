@@ -31,7 +31,7 @@ code hello_world.py
 
 If you've followed along correctly you should now see an open Visual Studio Code application. Type the following and save the file:
 
-~~~
+~~~python
 # This program prints 'hello world' to the terminal
 print('Hello World')
 ~~~
@@ -39,11 +39,13 @@ print('Hello World')
 
 ### Running Your First Program
 Back in your terminal (still inside the python directory), simply type the following to execute your first program:
-~~~
+
+~~~bash
 python3 hello_world.py
-~~~`
+~~~
 
 You should see the flowing output:
+
 ~~~bash
 $ python3 hello_world.py
 Hello World
@@ -51,7 +53,7 @@ Hello World
 
 The dollar sign in this example is simply an indicator that you'll enter the command in your terminal as a non-root user. You shouldn't type the `$` character into your terminal.
 
-The first command, `python3` tells the OS to run the python 3 program. The second argument, `hello_world.py` tells python 3 to run your script. While running the loaded script, python is instructed to print the words 'Hello World' to the terminal.
+The first command, `python3`, tells the OS to run the python 3 program. The second argument, `hello_world.py`, tells python 3 to run your script. While running the loaded script, python is instructed to print the words 'Hello World' to the terminal.
 
 Congratulations! You've just run your first Python program!
 
