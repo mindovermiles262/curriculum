@@ -2,10 +2,11 @@ Printing a simple string to the console is great, but doesn't solve many problem
 
 ### Learning Outcomes
 
-By the end of this section, you should be able to do the following:
+By the end of this section, you will:
 
 * Know the various boolean operators
-* Understand how 
+* Understand how to conditionally control your program
+* Be able to use loops
 
 ### Introduction
 
