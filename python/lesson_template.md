@@ -1,41 +1,42 @@
-Brief description of what will be covered
+A short paragraph to introduce the concepts of the lesson. Why are we learning this new material? What does it do? Where are the benefits?
 
 ### Learning Outcomes
 
-By the end of this section, you should be able to do the following:
-
-* Do something
-* Do something else
-* Do another thing
+* Bullet List of
+* Things the students will know
 
 ### Introduction
 
-### Custom Header
+Provide a high-level overview of the concept. Include examples where applicable.
 
-Content here
+#### Subheading
 
-~~~bash
-rm -rf /
+Some more content.
+
+~~~python
+code block
 ~~~
-
-### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Assignment 1
-1. Markdown will automagically change the
-1. numbers to be in order
+#### Assignment
+
+1. Do something
+1. Do something else
+1. Do a third thing
+1. Using `1.` should automagically number the assignments
+1. Thanks, markdown
 
 </div>
 
 ### Knowledge Check
 
-* Thing you should know after
-* Finishing this lesson
+* An ELI5 of what we just covered
 
 ### Exercises
-* Links or tasks for students to practice their newfound knowledge
-* Projects should not go here, but rather be their own Lesson
+
+* Links to exercises
 
 ### Additional Resources
-* Add any additional resources here
+
+* Add additional resources here

@@ -14,7 +14,7 @@ Now that you understand how to control the flow of your programs, we can make ou
 
 You write functions in python by using a special `def` keyword and a colon. Function names can be almost anything you want them to be, but they should be descriptive of what the function does. Let's take a look at an example make coffee function:
 
-```python
+~~~python
 def make_coffee():
     print('Filled the kettle')
     print('Turned on the kettle')
@@ -24,7 +24,7 @@ def make_coffee():
     print('Poured the water')
 		
 make_coffee() #=> Your first cup of coffee
-```
+~~~
 
 Line 1 is the __function definition__. We want to define a function named "say_hello". All function definitions end with a colon.
 
