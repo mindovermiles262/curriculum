@@ -6,15 +6,14 @@ This first project is one you may see again in your future. Many times coding in
 
 <div class="lesson-content__panel" markdown="1">
 
-* If you haven't already, create a new git repository and create a new python file. You can name it whatever you'd like.
-* Think through the problem. Take it one step at a time. This is the basic skill of programming.
-
-1. Write a program to count to 15
-2. Check if the current number is divisible by 3. If so, print "FIZZ"
-3. Check if the current number is divisibile by 5. If so, print "BUZZ"
-4. Check if the current number is divisible by 3 AND 5. If so, print "FIZZUBZZ"
-5. Otherwise, print the number.
-
+1. If you haven't already, create a new git repository and create a new python file. You can name it whatever you'd like.
+2. Think through the problem. Take it one step at a time. This is the basic skill of programming.
+    * Write a program to count to 15
+    * Check if the current number is divisible by 3. If so, print "FIZZ"
+    * Check if the current number is divisibile by 5. If so, print "BUZZ"
+    * Check if the current number is divisible by 3 AND 5. If so, print "FIZZUBZZ"
+    * Otherwise, print the number.
+3. Hard Mode: Turn your code into a function. Be able to pass a `max_number` parameter to count beyond 15.
 </div>
 
 #### Example Output
@@ -48,6 +47,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
    
 - Add your solution below this line!
 
-- [Andy Duss's Solution](https://github.com/mindovermiles262/fizzbuzz/blob/master/fizzbuzz.py)
+- [Andy Duss's Solution](https://github.com/mindovermiles262/fizzbuzz/blob/master/fizzbuzz.py) [Hard Mode](https://github.com/mindovermiles262/fizzbuzz/blob/master/fizzbuzz_hard_mode.py)
 
 </details>
