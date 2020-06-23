@@ -1,6 +1,6 @@
 Functions are an essential part of programming. They are an easy way to execute a task. Instead of having to write your flow control each time you want to use it, you can turn it into a function and call it much easier.
 
-### Lesson Outcomes:
+### Learning Outcomes:
 
 By the end of this lesson, you will:
 
@@ -43,13 +43,13 @@ Now, if you want to make a second cup of coffee, it's as easy as calling the `ma
 
 </div>
 
-### Key Takeaways
+### Knowledge Check
 
 * Functions are miniprograms within a program.
 * Functions start with the `def` keyword and end with a colon. You can add arugments inside the parenthesis.
 * Variables can be in either local or global scopes. You cannot use local variables in the global scope, but you CAN use global variables in a local scope.
 
-### Quiz Yourself
+### Exercises
 
 * Go through Learn Python's [Function Module](https://www.learnpython.org/en/Functions). Complete the exercises at the end.
 

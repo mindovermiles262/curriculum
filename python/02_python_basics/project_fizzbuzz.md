@@ -13,7 +13,7 @@ This first project is one you may see again in your future. Many times coding in
     * Check if the current number is divisibile by 5. If so, print "BUZZ"
     * Check if the current number is divisible by 3 AND 5. If so, print "FIZZUBZZ"
     * Otherwise, print the number.
-3. Hard Mode: Turn your code into a function. Be able to pass a `max_number` parameter to count beyond 15.
+3. **Hard Mode**: Turn your code into a function. Be able to pass a `max_number` argument to count beyond 15.
 </div>
 
 #### Example Output
@@ -47,6 +47,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
    
 - Add your solution below this line!
 
-- [Andy Duss's Solution](https://github.com/mindovermiles262/fizzbuzz/blob/master/fizzbuzz.py) [Hard Mode](https://github.com/mindovermiles262/fizzbuzz/blob/master/fizzbuzz_hard_mode.py)
+- [Andy Duss's Solution](https://github.com/mindovermiles262/fizzbuzz/blob/master/fizzbuzz.py) - [Hard Mode](https://github.com/mindovermiles262/fizzbuzz/blob/master/fizzbuzz_hard_mode.py)
 
 </details>
