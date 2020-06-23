@@ -16,12 +16,13 @@ You write functions in python by using a special `def` keyword and a colon. Func
 
 ~~~python
 def make_coffee():
-    print('Filled the kettle')
-    print('Turned on the kettle')
-    print('Water is boiling')
-    print('Weighed the beans')
-    print('Ground the beans')
-    print('Poured the water')
+    print('Fill the kettle')
+    print('Turn on the kettle')
+    print('Weigh the beans')
+    print('Grind the beans')
+    print('Wait for the water to boil')
+    print('Pour the water over the ground beans')
+    print('Enjoy your coffee')
 		
 make_coffee() #=> Your first cup of coffee
 ~~~
