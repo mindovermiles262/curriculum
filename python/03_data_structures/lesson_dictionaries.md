@@ -33,7 +33,7 @@ alfred_cat['age']      #=> 2
 
 <div class="lesson-content__panel" markdown="1">
 
-* Read [chapter 5](https://automatetheboringstuff.com/2e/chapter5/) of _Automate the Boring Stuff with Python_.
+1. Read [chapter 5](https://automatetheboringstuff.com/2e/chapter5/) of _Automate the Boring Stuff with Python_. Be sure to try the practice projects at the end.
 
 </div>
 

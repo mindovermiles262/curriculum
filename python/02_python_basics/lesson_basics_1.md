@@ -66,8 +66,7 @@ Congratulations! You've just run your first Python program!
 
 1. Read [Chapter 0](https://automatetheboringstuff.com/2e/chapter0/) of _Automate The Boring Stuff with Python_ up to the "About This Book" section
 1. Read [Chapter 1](https://automatetheboringstuff.com/2e/chapter1/) of _Automate the Boring Stuff with Python_ and learn the basics of using the Python interactive shell. __PRO TIP:__ Launch Python's interactive shell by typing `python` into your terminal. Type `exit()` to exit.
-1. Switch it up! Code along with Al Sweigart (Author of the book you're reading) in [this youtube video](https://youtu.be/buMTH6ICnqk?t=10) of the same lesson you just read. Use the method described above in [Running your first program](#) to run the python scripts you write. Practice makes perfect
-* TODO: Link "Running your first program" to paragraph above
+1. Switch it up! Code along with Al Sweigart (Author of the book you're reading) in [this youtube video](https://youtu.be/buMTH6ICnqk?t=10) of the same lesson you just read. Use the method described above in [Running your first program](#writing-your-first-program) to run the python scripts you write. Practice makes perfect
 
 </div>
 

@@ -39,7 +39,7 @@ Now, if you want to make a second cup of coffee, it's as easy as calling the `ma
 
 <div class="lesson-content__panel" markdown="1">
 
-* Read [chapter 3](https://automatetheboringstuff.com/2e/chapter3/) of _Automate the Boring Stuff with Python_.
+1. Read [chapter 3](https://automatetheboringstuff.com/2e/chapter3/) of _Automate the Boring Stuff with Python_.
 
 </div>
 

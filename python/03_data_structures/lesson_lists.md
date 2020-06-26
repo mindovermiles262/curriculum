@@ -41,7 +41,7 @@ Tuples are closely related to lists. The only difference is tuples are non-mutat
 
 <div class="lesson-content__panel" markdown="1">
 
-* Read [chapter 4](https://automatetheboringstuff.com/2e/chapter4/) of _Automate the Boring Stuff with Python_.
+1. Read [chapter 4](https://automatetheboringstuff.com/2e/chapter4/) of _Automate the Boring Stuff with Python_.
 
 </div>
 
